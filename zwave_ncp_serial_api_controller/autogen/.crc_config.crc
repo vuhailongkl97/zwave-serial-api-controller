@@ -1,0 +1,26 @@
+#CRC Codes for initially generated config files -- do not modify!
+FreeRTOSConfig.h=1433137582
+app_properties_config.h=-77184399
+btl_interface_cfg.h=-729572575
+emlib_core_debug_config.h=1524820012
+nvm3_default_config.h=363298015
+radio_no_board.h=-1423293106
+radio_no_board_button.h=1596022786
+radio_no_board_led.h=-2024076267
+serial_api_config.h=2069300034
+sl_device_init_dcdc_config.h=715313241
+sl_device_init_emu_config.h=305280193
+sl_device_init_hfxo_config.h=129957176
+sl_memory_config.h=1266021175
+sl_power_manager_config.h=-1985446573
+sl_rail_util_pa_config.h=1333196633
+sl_rail_util_power_manager_init_config.h=601888494
+sl_sleeptimer_config.h=847044378
+zaf_appname_config.h=-1581715661
+zaf_config.h=-1748249055
+zaf_event_distributor_core_config.h=-1581153151
+zpal_zwave_nvm_instance_config.h=1499538077
+zw_build_no.h=784224954
+zw_config_rf.h=1276173147
+zw_region_config.h=610370808
+zw_version_config.h=-316538487

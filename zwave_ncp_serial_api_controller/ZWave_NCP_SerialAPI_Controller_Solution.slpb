@@ -1,0 +1,20 @@
+---
+parameters: []
+constants:
+- name: "workspace_name"
+  value: "ZWave_NCP_SerialAPI_Controller_Solution"
+- path: "zwave_ncp_serial_api_controller.slpb"
+- path: "../bootloader-uart-xmodem-zwave/bootloader-uart-xmodem-zwave.slpb"
+steps:
+- task: "convert"
+  output: "artifact/{{workspace_name}}-full.s37"
+  input:
+  - "{{application_binary}}"
+  - "{{bootloader_binary}}"
+- task: "create_gbl"
+  output: "artifact/{{workspace_name}}-full.gbl"
+  app: "{{application_binary}}"
+  bootloader: "{{bootloader_binary}}"
+- task: "create_gbl"
+  output: "artifact/{{workspace_name}}-app-only.gbl"
+  app: "{{application_binary}}"

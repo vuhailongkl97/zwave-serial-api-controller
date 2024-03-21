@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="uc.module.setup.componentSetup.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205.gcc" propertyScope="project">
+  <folder name="gecko_sdk_4.4.1">
+    <folder name="platform">
+      <folder name="Device">
+        <folder name="SiliconLabs">
+          <folder name="EFR32ZG14P">
+            <folder name="Source">
+              <file name="startup_efr32zg14p.c" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Source/startup_efr32zg14p.c"/>
+              <file name="system_efr32zg14p.c" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Source/system_efr32zg14p.c"/>
+            </folder>
+            <folder name="Include">
+              <file name="efr32zg14p231f256gm32.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p231f256gm32.h"/>
+              <file name="efr32zg14p_af_pins.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_af_pins.h"/>
+              <file name="efr32zg14p_af_ports.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_af_ports.h"/>
+              <file name="efr32zg14p_cmu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_cmu.h"/>
+              <file name="efr32zg14p_cryotimer.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_cryotimer.h"/>
+              <file name="efr32zg14p_crypto.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_crypto.h"/>
+              <file name="efr32zg14p_devinfo.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_devinfo.h"/>
+              <file name="efr32zg14p_dma_descriptor.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_dma_descriptor.h"/>
+              <file name="efr32zg14p_dmareq.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_dmareq.h"/>
+              <file name="efr32zg14p_emu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_emu.h"/>
+              <file name="efr32zg14p_fpueh.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_fpueh.h"/>
+              <file name="efr32zg14p_gpcrc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_gpcrc.h"/>
+              <file name="efr32zg14p_gpio.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_gpio.h"/>
+              <file name="efr32zg14p_gpio_p.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_gpio_p.h"/>
+              <file name="efr32zg14p_i2c.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_i2c.h"/>
+              <file name="efr32zg14p_ldma.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_ldma.h"/>
+              <file name="efr32zg14p_ldma_ch.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_ldma_ch.h"/>
+              <file name="efr32zg14p_letimer.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_letimer.h"/>
+              <file name="efr32zg14p_leuart.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_leuart.h"/>
+              <file name="efr32zg14p_msc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_msc.h"/>
+              <file name="efr32zg14p_pcnt.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_pcnt.h"/>
+              <file name="efr32zg14p_prs.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_prs.h"/>
+              <file name="efr32zg14p_prs_ch.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_prs_ch.h"/>
+              <file name="efr32zg14p_prs_signals.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_prs_signals.h"/>
+              <file name="efr32zg14p_rmu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_rmu.h"/>
+              <file name="efr32zg14p_romtable.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_romtable.h"/>
+              <file name="efr32zg14p_rtc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_rtc.h"/>
+              <file name="efr32zg14p_rtc_comp.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_rtc_comp.h"/>
+              <file name="efr32zg14p_rtcc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_rtcc.h"/>
+              <file name="efr32zg14p_rtcc_cc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_rtcc_cc.h"/>
+              <file name="efr32zg14p_rtcc_ret.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_rtcc_ret.h"/>
+              <file name="efr32zg14p_smu.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_smu.h"/>
+              <file name="efr32zg14p_timer.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_timer.h"/>
+              <file name="efr32zg14p_timer_cc.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_timer_cc.h"/>
+              <file name="efr32zg14p_trng.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_trng.h"/>
+              <file name="efr32zg14p_usart.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_usart.h"/>
+              <file name="efr32zg14p_wdog.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_wdog.h"/>
+              <file name="efr32zg14p_wdog_pch.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/efr32zg14p_wdog_pch.h"/>
+              <file name="em_device.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/em_device.h"/>
+              <file name="system_efr32zg14p.h" linked="false" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32ZG14P/Include/system_efr32zg14p.h"/>
+            </folder>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="common">
+        <folder name="inc">
+          <file name="sl_atomic.h" linked="false" uri="studio:/sdk/platform/common/inc/sl_atomic.h"/>
+          <file name="sl_cmsis_os2_common.h" linked="false" uri="studio:/sdk/platform/common/inc/sl_cmsis_os2_common.h"/>
+          <file name="sl_enum.h" linked="false" uri="studio:/sdk/platform/common/inc/sl_enum.h"/>
+          <file name="sl_assert.h" linked="false" uri="studio:/sdk/platform/common/inc/sl_assert.h"/>
+          <file name="sl_common.h" linked="false" uri="studio:/sdk/platform/common/inc/sl_common.h"/>
+          <file name="sl_slist.h" linked="false" uri="studio:/sdk/platform/common/inc/sl_slist.h"/>
+          <file name="sl_status.h" linked="false" uri="studio:/sdk/platform/common/inc/sl_status.h"/>
+        </folder>
+        <folder name="src">
+          <file name="sl_assert.c" linked="false" uri="studio:/sdk/platform/common/src/sl_assert.c"/>
+          <file name="sl_syscalls.c" linked="false" uri="studio:/sdk/platform/common/src/sl_syscalls.c"/>
+          <file name="sl_slist.c" linked="false" uri="studio:/sdk/platform/common/src/sl_slist.c"/>
+        </folder>
+        <folder name="toolchain">
+          <folder name="src">
+            <file name="sl_memory.c" linked="false" uri="studio:/sdk/platform/common/toolchain/src/sl_memory.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_memory_region.h" linked="false" uri="studio:/sdk/platform/common/toolchain/inc/sl_memory_region.h"/>
+            <file name="sl_memory.h" linked="false" uri="studio:/sdk/platform/common/toolchain/inc/sl_memory.h"/>
+            <file name="sl_gcc_preinclude.h" linked="false" uri="studio:/sdk/platform/common/toolchain/inc/sl_gcc_preinclude.h"/>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="bootloader">
+        <folder name="app_properties">
+          <file name="app_properties.c" linked="false" uri="studio:/sdk/platform/bootloader/app_properties/app_properties.c"/>
+        </folder>
+        <folder name="api">
+          <file name="btl_interface.c" linked="false" uri="studio:/sdk/platform/bootloader/api/btl_interface.c"/>
+          <file name="btl_interface_storage.c" linked="false" uri="studio:/sdk/platform/bootloader/api/btl_interface_storage.c"/>
+          <file name="application_properties.h" linked="false" uri="studio:/sdk/platform/bootloader/api/application_properties.h"/>
+          <file name="btl_errorcode.h" linked="false" uri="studio:/sdk/platform/bootloader/api/btl_errorcode.h"/>
+          <file name="btl_interface.h" linked="false" uri="studio:/sdk/platform/bootloader/api/btl_interface.h"/>
+          <file name="btl_interface_parser.h" linked="false" uri="studio:/sdk/platform/bootloader/api/btl_interface_parser.h"/>
+          <file name="btl_interface_storage.h" linked="false" uri="studio:/sdk/platform/bootloader/api/btl_interface_storage.h"/>
+          <file name="btl_reset_info.h" linked="false" uri="studio:/sdk/platform/bootloader/api/btl_reset_info.h"/>
+        </folder>
+      </folder>
+      <folder name="CMSIS">
+        <folder name="Core">
+          <folder name="Include">
+            <file name="cmsis_compiler.h" linked="false" uri="studio:/sdk/platform/CMSIS/Core/Include/cmsis_compiler.h"/>
+            <file name="cmsis_version.h" linked="false" uri="studio:/sdk/platform/CMSIS/Core/Include/cmsis_version.h"/>
+            <file name="tz_context.h" linked="false" uri="studio:/sdk/platform/CMSIS/Core/Include/tz_context.h"/>
+            <file name="cmsis_gcc.h" linked="false" uri="studio:/sdk/platform/CMSIS/Core/Include/cmsis_gcc.h"/>
+            <file name="core_cm4.h" linked="false" uri="studio:/sdk/platform/CMSIS/Core/Include/core_cm4.h"/>
+            <file name="mpu_armv7.h" linked="false" uri="studio:/sdk/platform/CMSIS/Core/Include/mpu_armv7.h"/>
+          </folder>
+        </folder>
+        <folder name="RTOS2">
+          <folder name="Include">
+            <file name="cmsis_os2.h" linked="false" uri="studio:/sdk/platform/CMSIS/RTOS2/Include/cmsis_os2.h"/>
+            <file name="os_tick.h" linked="false" uri="studio:/sdk/platform/CMSIS/RTOS2/Include/os_tick.h"/>
+          </folder>
+          <folder name="Source">
+            <file name="os_systick.c" linked="false" uri="studio:/sdk/platform/CMSIS/RTOS2/Source/os_systick.c"/>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="service">
+        <folder name="device_init">
+          <folder name="inc">
+            <file name="sl_device_init_clocks.h" linked="false" uri="studio:/sdk/platform/service/device_init/inc/sl_device_init_clocks.h"/>
+            <file name="sl_device_init_dcdc.h" linked="false" uri="studio:/sdk/platform/service/device_init/inc/sl_device_init_dcdc.h"/>
+            <file name="sl_device_init_emu.h" linked="false" uri="studio:/sdk/platform/service/device_init/inc/sl_device_init_emu.h"/>
+            <file name="sl_device_init_hfxo.h" linked="false" uri="studio:/sdk/platform/service/device_init/inc/sl_device_init_hfxo.h"/>
+            <file name="sl_device_init_nvic.h" linked="false" uri="studio:/sdk/platform/service/device_init/inc/sl_device_init_nvic.h"/>
+          </folder>
+          <folder name="src">
+            <file name="sl_device_init_dcdc_s1.c" linked="false" uri="studio:/sdk/platform/service/device_init/src/sl_device_init_dcdc_s1.c"/>
+            <file name="sl_device_init_emu_s1.c" linked="false" uri="studio:/sdk/platform/service/device_init/src/sl_device_init_emu_s1.c"/>
+            <file name="sl_device_init_hfxo_s1.c" linked="false" uri="studio:/sdk/platform/service/device_init/src/sl_device_init_hfxo_s1.c"/>
+            <file name="sl_device_init_nvic.c" linked="false" uri="studio:/sdk/platform/service/device_init/src/sl_device_init_nvic.c"/>
+          </folder>
+        </folder>
+        <folder name="mpu">
+          <folder name="src">
+            <file name="sl_mpu.c" linked="false" uri="studio:/sdk/platform/service/mpu/src/sl_mpu.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_mpu.h" linked="false" uri="studio:/sdk/platform/service/mpu/inc/sl_mpu.h"/>
+          </folder>
+        </folder>
+        <folder name="power_manager">
+          <folder name="src">
+            <file name="sl_power_manager.c" linked="false" uri="studio:/sdk/platform/service/power_manager/src/sl_power_manager.c"/>
+            <file name="sl_power_manager_debug.c" linked="false" uri="studio:/sdk/platform/service/power_manager/src/sl_power_manager_debug.c"/>
+            <file name="sl_power_manager_hal_s0_s1.c" linked="false" uri="studio:/sdk/platform/service/power_manager/src/sl_power_manager_hal_s0_s1.c"/>
+            <file name="sli_power_manager_private.h" linked="false" uri="studio:/sdk/platform/service/power_manager/src/sli_power_manager_private.h"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_power_manager.h" linked="false" uri="studio:/sdk/platform/service/power_manager/inc/sl_power_manager.h"/>
+            <file name="sl_power_manager_debug.h" linked="false" uri="studio:/sdk/platform/service/power_manager/inc/sl_power_manager_debug.h"/>
+            <file name="sli_power_manager.h" linked="false" uri="studio:/sdk/platform/service/power_manager/inc/sli_power_manager.h"/>
+          </folder>
+        </folder>
+        <folder name="system">
+          <folder name="src">
+            <file name="sl_system_init.c" linked="false" uri="studio:/sdk/platform/service/system/src/sl_system_init.c"/>
+            <file name="sl_system_kernel.c" linked="false" uri="studio:/sdk/platform/service/system/src/sl_system_kernel.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_system_init.h" linked="false" uri="studio:/sdk/platform/service/system/inc/sl_system_init.h"/>
+            <file name="sl_system_kernel.h" linked="false" uri="studio:/sdk/platform/service/system/inc/sl_system_kernel.h"/>
+          </folder>
+        </folder>
+        <folder name="sleeptimer">
+          <folder name="src">
+            <file name="sl_sleeptimer.c" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sl_sleeptimer.c"/>
+            <file name="sl_sleeptimer_hal_rtcc.c" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.c"/>
+            <file name="sl_sleeptimer_hal_prortc.c" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_prortc.c"/>
+            <file name="sl_sleeptimer_hal_timer.c" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.c"/>
+            <file name="sli_sleeptimer_hal.h" linked="false" uri="studio:/sdk/platform/service/sleeptimer/src/sli_sleeptimer_hal.h"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_sleeptimer.h" linked="false" uri="studio:/sdk/platform/service/sleeptimer/inc/sl_sleeptimer.h"/>
+            <file name="sli_sleeptimer.h" linked="false" uri="studio:/sdk/platform/service/sleeptimer/inc/sli_sleeptimer.h"/>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="emdrv">
+        <folder name="common">
+          <folder name="inc">
+            <file name="ecode.h" linked="false" uri="studio:/sdk/platform/emdrv/common/inc/ecode.h"/>
+          </folder>
+        </folder>
+        <folder name="gpiointerrupt">
+          <folder name="src">
+            <file name="gpiointerrupt.c" linked="false" uri="studio:/sdk/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="gpiointerrupt.h" linked="false" uri="studio:/sdk/platform/emdrv/gpiointerrupt/inc/gpiointerrupt.h"/>
+          </folder>
+        </folder>
+        <folder name="nvm3">
+          <folder name="inc">
+            <file name="nvm3_default.h" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/inc/nvm3_default.h"/>
+            <file name="nvm3.h" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/inc/nvm3.h"/>
+            <file name="nvm3_generic.h" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/inc/nvm3_generic.h"/>
+            <file name="nvm3_hal.h" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/inc/nvm3_hal.h"/>
+            <file name="nvm3_hal_flash.h" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/inc/nvm3_hal_flash.h"/>
+            <file name="nvm3_lock.h" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/inc/nvm3_lock.h"/>
+          </folder>
+          <folder name="src">
+            <file name="nvm3_default_common_linker.c" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/src/nvm3_default_common_linker.c"/>
+            <file name="nvm3_hal_flash.c" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/src/nvm3_hal_flash.c"/>
+            <file name="nvm3_lock.c" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/src/nvm3_lock.c"/>
+          </folder>
+          <folder name="lib">
+            <file name="libnvm3_CM4_gcc.a" linked="false" uri="studio:/sdk/platform/emdrv/nvm3/lib/libnvm3_CM4_gcc.a"/>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="emlib">
+        <folder name="inc">
+          <file name="em_chip.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_chip.h"/>
+          <file name="em_cmu.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_cmu.h"/>
+          <file name="em_cmu_compat.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_cmu_compat.h"/>
+          <file name="sli_em_cmu.h" linked="false" uri="studio:/sdk/platform/emlib/inc/sli_em_cmu.h"/>
+          <file name="em_assert.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_assert.h"/>
+          <file name="em_bus.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_bus.h"/>
+          <file name="em_common.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_common.h"/>
+          <file name="em_ramfunc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_ramfunc.h"/>
+          <file name="em_version.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_version.h"/>
+          <file name="em_core.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_core.h"/>
+          <file name="em_core_generic.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_core_generic.h"/>
+          <file name="em_cryotimer.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_cryotimer.h"/>
+          <file name="em_crypto.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_crypto.h"/>
+          <file name="em_crypto_compat.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_crypto_compat.h"/>
+          <file name="em_dbg.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_dbg.h"/>
+          <file name="em_emu.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_emu.h"/>
+          <file name="em_gpcrc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_gpcrc.h"/>
+          <file name="em_gpio.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_gpio.h"/>
+          <file name="em_i2c.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_i2c.h"/>
+          <file name="em_ldma.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_ldma.h"/>
+          <file name="em_letimer.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_letimer.h"/>
+          <file name="em_leuart.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_leuart.h"/>
+          <file name="em_msc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_msc.h"/>
+          <file name="em_msc_compat.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_msc_compat.h"/>
+          <file name="em_pcnt.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_pcnt.h"/>
+          <file name="em_prs.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_prs.h"/>
+          <file name="em_rmu.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_rmu.h"/>
+          <file name="em_rtcc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_rtcc.h"/>
+          <file name="em_smu.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_smu.h"/>
+          <file name="em_system.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_system.h"/>
+          <file name="em_system_generic.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_system_generic.h"/>
+          <file name="em_timer.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_timer.h"/>
+          <file name="em_usart.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_usart.h"/>
+          <file name="em_wdog.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_wdog.h"/>
+        </folder>
+        <folder name="src">
+          <file name="em_cmu.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_cmu.c"/>
+          <file name="em_core.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_core.c"/>
+          <file name="em_cryotimer.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_cryotimer.c"/>
+          <file name="em_crypto.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_crypto.c"/>
+          <file name="em_dbg.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_dbg.c"/>
+          <file name="em_emu.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_emu.c"/>
+          <file name="em_gpcrc.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_gpcrc.c"/>
+          <file name="em_gpio.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_gpio.c"/>
+          <file name="em_i2c.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_i2c.c"/>
+          <file name="em_ldma.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_ldma.c"/>
+          <file name="em_letimer.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_letimer.c"/>
+          <file name="em_leuart.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_leuart.c"/>
+          <file name="em_msc.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_msc.c"/>
+          <file name="em_pcnt.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_pcnt.c"/>
+          <file name="em_prs.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_prs.c"/>
+          <file name="em_rmu.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_rmu.c"/>
+          <file name="em_rtcc.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_rtcc.c"/>
+          <file name="em_system.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_system.c"/>
+          <file name="em_timer.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_timer.c"/>
+          <file name="em_usart.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_usart.c"/>
+          <file name="em_wdog.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_wdog.c"/>
+        </folder>
+      </folder>
+      <folder name="radio">
+        <folder name="rail_lib">
+          <folder name="common">
+            <file name="rail.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/common/rail.h"/>
+            <file name="rail_mfm.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/common/rail_mfm.h"/>
+            <file name="rail_assert_error_codes.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/common/rail_assert_error_codes.h"/>
+            <file name="rail_types.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/common/rail_types.h"/>
+            <file name="rail_features.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/common/rail_features.h"/>
+          </folder>
+          <folder name="protocol">
+            <folder name="ble">
+              <file name="rail_ble.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/protocol/ble/rail_ble.h"/>
+            </folder>
+            <folder name="ieee802154">
+              <file name="rail_ieee802154.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/protocol/ieee802154/rail_ieee802154.h"/>
+            </folder>
+            <folder name="wmbus">
+              <file name="rail_wmbus.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/protocol/wmbus/rail_wmbus.h"/>
+            </folder>
+            <folder name="zwave">
+              <file name="rail_zwave.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/protocol/zwave/rail_zwave.h"/>
+            </folder>
+            <folder name="sidewalk">
+              <file name="rail_sidewalk.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/protocol/sidewalk/rail_sidewalk.h"/>
+            </folder>
+          </folder>
+          <folder name="chip">
+            <folder name="efr32">
+              <folder name="efr32xg1x">
+                <file name="rail_chip_specific.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/chip/efr32/efr32xg1x/rail_chip_specific.h"/>
+              </folder>
+            </folder>
+          </folder>
+          <folder name="autogen">
+            <folder name="librail_release">
+              <file name="librail_efr32xg14_gcc_release.a" linked="false" uri="studio:/sdk/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg14_gcc_release.a"/>
+            </folder>
+          </folder>
+          <folder name="plugin">
+            <folder name="pa-conversions">
+              <folder name="efr32xg1x">
+                <file name="sl_rail_util_pa_curves.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/plugin/pa-conversions/efr32xg1x/sl_rail_util_pa_curves.h"/>
+              </folder>
+              <file name="pa_conversions_efr32.c" linked="false" uri="studio:/sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.c"/>
+              <file name="pa_curves_efr32.c" linked="false" uri="studio:/sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.c"/>
+              <file name="pa_conversions_efr32.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.h"/>
+              <file name="pa_curve_types_efr32.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_curve_types_efr32.h"/>
+              <file name="pa_curves_efr32.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.h"/>
+            </folder>
+            <folder name="rail_util_power_manager_init">
+              <file name="sl_rail_util_power_manager_init.c" linked="false" uri="studio:/sdk/platform/radio/rail_lib/plugin/rail_util_power_manager_init/sl_rail_util_power_manager_init.c"/>
+              <file name="sl_rail_util_power_manager_init.h" linked="false" uri="studio:/sdk/platform/radio/rail_lib/plugin/rail_util_power_manager_init/sl_rail_util_power_manager_init.h"/>
+            </folder>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="halconfig">
+        <folder name="inc">
+          <folder name="hal-config">
+            <file name="hal-config-types.h" linked="false" uri="studio:/sdk/platform/halconfig/inc/hal-config/hal-config-types.h"/>
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="util">
+      <folder name="third_party">
+        <folder name="freertos">
+          <folder name="cmsis">
+            <folder name="Source">
+              <file name="cmsis_os2.c" linked="false" uri="studio:/sdk/util/third_party/freertos/cmsis/Source/cmsis_os2.c"/>
+            </folder>
+            <folder name="Include">
+              <file name="freertos_os2.h" linked="false" uri="studio:/sdk/util/third_party/freertos/cmsis/Include/freertos_os2.h"/>
+              <file name="freertos_mpool.h" linked="false" uri="studio:/sdk/util/third_party/freertos/cmsis/Include/freertos_mpool.h"/>
+            </folder>
+          </folder>
+          <folder name="kernel">
+            <folder name="portable">
+              <folder name="SiliconLabs">
+                <file name="tick_power_manager.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/portable/SiliconLabs/tick_power_manager.c"/>
+              </folder>
+              <folder name="GCC">
+                <folder name="ARM_CM4F">
+                  <file name="port.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/portable/GCC/ARM_CM4F/port.c"/>
+                  <file name="portmacro.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/portable/GCC/ARM_CM4F/portmacro.h"/>
+                </folder>
+              </folder>
+              <folder name="MemMang">
+                <file name="heap_4.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/portable/MemMang/heap_4.c"/>
+              </folder>
+            </folder>
+            <folder name="include">
+              <file name="atomic.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/atomic.h"/>
+              <file name="croutine.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/croutine.h"/>
+              <file name="deprecated_definitions.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/deprecated_definitions.h"/>
+              <file name="event_groups.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/event_groups.h"/>
+              <file name="FreeRTOS.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/FreeRTOS.h"/>
+              <file name="list.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/list.h"/>
+              <file name="message_buffer.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/message_buffer.h"/>
+              <file name="mpu_prototypes.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/mpu_prototypes.h"/>
+              <file name="mpu_wrappers.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/mpu_wrappers.h"/>
+              <file name="portable.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/portable.h"/>
+              <file name="projdefs.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/projdefs.h"/>
+              <file name="queue.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/queue.h"/>
+              <file name="semphr.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/semphr.h"/>
+              <file name="stack_macros.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/stack_macros.h"/>
+              <file name="StackMacros.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/StackMacros.h"/>
+              <file name="stream_buffer.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/stream_buffer.h"/>
+              <file name="task.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/task.h"/>
+              <file name="timers.h" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/include/timers.h"/>
+            </folder>
+            <file name="croutine.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/croutine.c"/>
+            <file name="event_groups.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/event_groups.c"/>
+            <file name="list.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/list.c"/>
+            <file name="queue.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/queue.c"/>
+            <file name="stream_buffer.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/stream_buffer.c"/>
+            <file name="tasks.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/tasks.c"/>
+            <file name="timers.c" linked="false" uri="studio:/sdk/util/third_party/freertos/kernel/timers.c"/>
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="protocol">
+      <folder name="z-wave">
+        <folder name="ZAF">
+          <folder name="ApplicationUtilities">
+            <folder name="AppName">
+              <file name="ZAF_AppName_weak.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/AppName/ZAF_AppName_weak.c"/>
+              <file name="ZAF_AppName.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/AppName/ZAF_AppName.h"/>
+            </folder>
+            <folder name="EventHandling">
+              <file name="zaf_event_distributor.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/EventHandling/zaf_event_distributor.c"/>
+              <file name="zaf_event_distributor.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/EventHandling/zaf_event_distributor.h"/>
+              <file name="zaf_event_distributor_ncp.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/EventHandling/zaf_event_distributor_ncp.c"/>
+              <file name="zaf_event_distributor_ncp.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/EventHandling/zaf_event_distributor_ncp.h"/>
+            </folder>
+            <folder name="_commonIF">
+              <file name="ZAF_Common_interface.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/_commonIF/ZAF_Common_interface.c"/>
+              <file name="ZAF_Common_interface.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/_commonIF/ZAF_Common_interface.h"/>
+              <file name="ZAF_Common_helper.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/_commonIF/ZAF_Common_helper.h"/>
+            </folder>
+            <folder name="TrueStatusEngine">
+              <file name="ZAF_TSE.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/TrueStatusEngine/ZAF_TSE.h"/>
+            </folder>
+            <folder name="Actuator">
+              <file name="ZAF_Actuator.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/Actuator/ZAF_Actuator.h"/>
+            </folder>
+            <file name="AppTimerDeepSleep.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/AppTimerDeepSleep.c"/>
+            <file name="AppTimer.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/AppTimer.h"/>
+            <file name="AppTimer.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/AppTimer.c"/>
+            <file name="ZAF_nvm.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_nvm.c"/>
+            <file name="ZAF_nvm_app.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_nvm_app.c"/>
+            <file name="ZAF_retention_register.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_retention_register.c"/>
+            <file name="ev_man.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ev_man.h"/>
+            <file name="ZAF_CmdPublisher.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_CmdPublisher.h"/>
+            <file name="ZAF_types.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_types.h"/>
+            <file name="ZAF_file_ids.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_file_ids.h"/>
+            <file name="ZW_product_id_enum.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZW_product_id_enum.h"/>
+            <file name="ZW_TransportSecProtocol.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZW_TransportSecProtocol.h"/>
+            <file name="ZW_TransportEndpoint.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZW_TransportEndpoint.h"/>
+            <file name="ZAF_ApplicationEvents.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_ApplicationEvents.h"/>
+            <file name="ZAF_nvm.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_nvm.h"/>
+            <file name="ZAF_nvm_app.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_nvm_app.h"/>
+            <file name="ZAF_retention_register.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ApplicationUtilities/ZAF_retention_register.h"/>
+          </folder>
+          <folder name="ProtocolConfig">
+            <folder name="src">
+              <file name="zaf_protocol_config.c" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ProtocolConfig/src/zaf_protocol_config.c"/>
+            </folder>
+            <folder name="inc">
+              <file name="zaf_protocol_config.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/ProtocolConfig/inc/zaf_protocol_config.h"/>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="platform">
+          <folder name="SiliconLabs">
+            <folder name="PAL">
+              <folder name="src">
+                <file name="zpal_zwave_nvm_instance.c" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/PAL/src/zpal_zwave_nvm_instance.c"/>
+              </folder>
+              <folder name="inc">
+                <folder name="application_properties">
+                  <file name="application_properties_config.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/PAL/inc/application_properties/application_properties_config.h"/>
+                </folder>
+                <folder name="hal-config">
+                  <file name="hal-config.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/PAL/inc/hal-config/hal-config.h"/>
+                  <file name="hal-config-board-700.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/PAL/inc/hal-config/hal-config-board-700.h"/>
+                </folder>
+                <file name="zpal_zwave_nvm_instance.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/PAL/inc/zpal_zwave_nvm_instance.h"/>
+                <file name="system_startup.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/PAL/inc/system_startup.h"/>
+                <file name="zpal_uart_config_ext.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/PAL/inc/zpal_uart_config_ext.h"/>
+                <file name="sl_dcdc.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/PAL/inc/sl_dcdc.h"/>
+              </folder>
+              <folder name="lib">
+                <file name="libzpal_efr32zg14p231f256gm32.a" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/PAL/lib/libzpal_efr32zg14p231f256gm32.a"/>
+              </folder>
+            </folder>
+            <folder name="AppsHw">
+              <folder name="src">
+                <folder name="common">
+                  <file name="board.c" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/src/common/board.c"/>
+                  <file name="board_BRD420x.c" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/src/common/board_BRD420x.c"/>
+                  <file name="board_indicator.c" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/src/common/board_indicator.c"/>
+                  <file name="board_init.c" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/src/common/board_init.c"/>
+                </folder>
+                <folder name="SerialAPI">
+                  <file name="SerialAPI_hw.c" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/src/SerialAPI/SerialAPI_hw.c"/>
+                </folder>
+              </folder>
+              <folder name="inc">
+                <file name="ADC.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/inc/ADC.h"/>
+                <file name="board.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/inc/board.h"/>
+                <file name="target_boards.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/inc/target_boards.h"/>
+                <file name="extension_board_8029a.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/inc/extension_board_8029a.h"/>
+                <file name="radio_board_efr32zg14.h" linked="false" uri="studio:/sdk/protocol/z-wave/platform/SiliconLabs/AppsHw/inc/radio_board_efr32zg14.h"/>
+              </folder>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="ZWave">
+          <folder name="API">
+            <file name="ZW_controller_api.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_controller_api.h"/>
+            <file name="ZW_SerialAPI.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_SerialAPI.h"/>
+            <file name="ZW.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW.h"/>
+            <file name="ZW_security_api.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_security_api.h"/>
+            <file name="ZW_typedefs.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_typedefs.h"/>
+            <file name="ZW_transport_api.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_transport_api.h"/>
+            <file name="ZW_basis_api.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_basis_api.h"/>
+            <file name="ZW_system_startup_api.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_system_startup_api.h"/>
+            <file name="ZW_application_transport_interface.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_application_transport_interface.h"/>
+            <file name="ZW_slave_api.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_slave_api.h"/>
+            <file name="ZW_UserTask.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/API/ZW_UserTask.h"/>
+          </folder>
+          <folder name="lib">
+            <file name="libZWaveController_700s.a" linked="false" uri="studio:/sdk/protocol/z-wave/ZWave/lib/libZWaveController_700s.a"/>
+          </folder>
+        </folder>
+        <folder name="AppsHw">
+          <folder name="inc">
+            <file name="app_hw.h" linked="false" uri="studio:/sdk/protocol/z-wave/AppsHw/inc/app_hw.h"/>
+            <file name="board_indicator.h" linked="false" uri="studio:/sdk/protocol/z-wave/AppsHw/inc/board_indicator.h"/>
+            <file name="board_init.h" linked="false" uri="studio:/sdk/protocol/z-wave/AppsHw/inc/board_init.h"/>
+          </folder>
+        </folder>
+        <folder name="Apps">
+          <folder name="zwave_ncp_serial_api">
+            <file name="SerialAPI_hw.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/SerialAPI_hw.h"/>
+          </folder>
+        </folder>
+        <folder name="PAL">
+          <folder name="inc">
+            <file name="ZW_classcmd.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/ZW_classcmd.h"/>
+            <file name="zpal_bootloader.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_bootloader.h"/>
+            <file name="zpal_status.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_status.h"/>
+            <file name="zpal_entropy.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_entropy.h"/>
+            <file name="zpal_init.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_init.h"/>
+            <file name="zpal_misc.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_misc.h"/>
+            <file name="zpal_nvm.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_nvm.h"/>
+            <file name="zpal_power_manager.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_power_manager.h"/>
+            <file name="zpal_radio.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_radio.h"/>
+            <file name="zpal_radio_utils.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_radio_utils.h"/>
+            <file name="zpal_retention_register.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_retention_register.h"/>
+            <file name="zpal_uart.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_uart.h"/>
+            <file name="zpal_watchdog.h" linked="false" uri="studio:/sdk/protocol/z-wave/PAL/inc/zpal_watchdog.h"/>
+          </folder>
+        </folder>
+        <folder name="Components">
+          <folder name="SwTimer">
+            <file name="SwTimer.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/SwTimer/SwTimer.h"/>
+            <file name="SwTimerLiaison.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/SwTimer/SwTimerLiaison.h"/>
+          </folder>
+          <folder name="Utils">
+            <file name="SizeOf.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/Utils/SizeOf.h"/>
+            <file name="Min2Max2.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/Utils/Min2Max2.h"/>
+          </folder>
+          <folder name="QueueNotifying">
+            <file name="QueueNotifying.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/QueueNotifying/QueueNotifying.h"/>
+          </folder>
+          <folder name="NodeMask">
+            <file name="NodeMask.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/NodeMask/NodeMask.h"/>
+          </folder>
+          <folder name="DebugPrint">
+            <file name="DebugPrint.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/DebugPrint/DebugPrint.h"/>
+            <file name="DebugPrintConfig.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/DebugPrint/DebugPrintConfig.h"/>
+          </folder>
+          <folder name="Assert">
+            <file name="Assert.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/Assert/Assert.h"/>
+          </folder>
+          <folder name="CRC">
+            <file name="CRC.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/CRC/CRC.h"/>
+          </folder>
+          <folder name="EventDistributor">
+            <file name="EventDistributor.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/EventDistributor/EventDistributor.h"/>
+          </folder>
+          <folder name="SyncEvent">
+            <file name="SyncEvent.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/SyncEvent/SyncEvent.h"/>
+          </folder>
+          <folder name="MfgTokens">
+            <file name="MfgTokens.h" linked="false" uri="studio:/sdk/protocol/z-wave/Components/MfgTokens/MfgTokens.h"/>
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+  </folder>
+  <file name="app_node_info.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/app_node_info.c"/>
+  <file name="cmd_handlers_invoker.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmd_handlers_invoker.c"/>
+  <file name="cmd_handlers.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmd_handlers.c"/>
+  <file name="cmd_get_capabilities.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmd_get_capabilities.c"/>
+  <file name="cmds_dcdc.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmds_dcdc.c"/>
+  <file name="cmds_power_management.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmds_power_management.c"/>
+  <file name="cmds_management.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmds_management.c"/>
+  <file name="cmds_rf.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmds_rf.c"/>
+  <file name="cmds_security.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmds_security.c"/>
+  <file name="comm_interface.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/comm_interface.c"/>
+  <file name="nvm_backup_restore.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/nvm_backup_restore.c"/>
+  <file name="serialapi_file.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/serialapi_file.c"/>
+  <file name="app.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/app.c"/>
+  <file name="utils.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/utils.c"/>
+  <file name="virtual_slave_node_info.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/virtual_slave_node_info.c"/>
+  <file name="main.c" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/main.c"/>
+  <file name="app_node_info.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/app_node_info.h"/>
+  <file name="cmd_handlers.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmd_handlers.h"/>
+  <file name="cmds_management.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmds_management.h"/>
+  <file name="cmds_rf.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmds_rf.h"/>
+  <file name="cmds_security.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/cmds_security.h"/>
+  <file name="comm_interface.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/comm_interface.h"/>
+  <file name="controller_supported_func.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/controller_supported_func.h"/>
+  <file name="nvm_backup_restore.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/nvm_backup_restore.h"/>
+  <file name="serialapi_file.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/serialapi_file.h"/>
+  <file name="app.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/app.h"/>
+  <file name="slave_supported_func.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/slave_supported_func.h"/>
+  <file name="utils.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/utils.h"/>
+  <file name="virtual_slave_node_info.h" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/virtual_slave_node_info.h"/>
+  <file name="zaf_config_security.h" linked="false" uri="studio:/sdk/protocol/z-wave/ZAF/configuration/inc/zaf_config_security.h"/>
+  <file name="postbuild.sh" linked="false" uri="studio:/sdk/protocol/z-wave/DevTools/postbuild.sh"/>
+  <file name="README.md" linked="false" uri="studio:/sdk/protocol/z-wave/Apps/zwave_ncp_serial_api/README.md"/>
+  <includePath uri="studio:/project/"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/Device/SiliconLabs/EFR32ZG14P/Include"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/common/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/bootloader"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/bootloader/api"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/CMSIS/Core/Include"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/CMSIS/RTOS2/Include"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/service/device_init/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/emdrv/common/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/emlib/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/util/third_party/freertos/cmsis/Include"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/util/third_party/freertos/kernel/include"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/util/third_party/freertos/kernel/portable/GCC/ARM_CM4F"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/emdrv/gpiointerrupt/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/service/mpu/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/emdrv/nvm3/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/service/power_manager/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/common"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/protocol/ble"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/protocol/ieee802154"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/protocol/wmbus"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/protocol/zwave"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/chip/efr32/efr32xg1x"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/protocol/sidewalk"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/plugin/pa-conversions"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/plugin/pa-conversions/efr32xg1x"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/plugin/rail_util_power_manager_init"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/common/toolchain/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/service/system/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/service/sleeptimer/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/ZAF/ApplicationUtilities/AppName"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/ZAF/ApplicationUtilities/EventHandling"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/ZAF/ProtocolConfig/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/platform/SiliconLabs/PAL/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/ZWave/API"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/ZAF/ApplicationUtilities"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/AppsHw/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/platform/SiliconLabs/AppsHw/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Apps/zwave_ncp_serial_api"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/PAL/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/SwTimer"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/Utils"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/QueueNotifying"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/NodeMask"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/DebugPrint"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/Assert"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/platform/SiliconLabs/PAL/inc/application_properties"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/platform/SiliconLabs/PAL/inc/hal-config"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/platform/halconfig/inc/hal-config"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/ZAF/ApplicationUtilities/TrueStatusEngine"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/ZAF/ApplicationUtilities/Actuator"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/ZAF/ApplicationUtilities/_commonIF"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/CRC"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/EventDistributor"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/SyncEvent"/>
+  <includePath uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/Components/MfgTokens"/>
+  <macroDefinition name="APP_PROPERTIES_CONFIG_FILE" value="&lt;application_properties_config.h>"/>
+  <macroDefinition name="MAX_CALLBACK_QUEUE" value="4"/>
+  <macroDefinition name="MAX_UNSOLICITED_QUEUE" value="4"/>
+  <macroDefinition name="EFR32ZG14P231F256GM32"/>
+  <macroDefinition name="ZW_MIGRATION_FROM_7_20" value="1"/>
+  <macroDefinition name="SL_APP_PROPERTIES"/>
+  <macroDefinition name="SL_COMPONENT_CATALOG_PRESENT"/>
+  <macroDefinition name="SL_RAIL_LIB_MULTIPROTOCOL_SUPPORT" value="0"/>
+  <macroDefinition name="SL_RAIL_UTIL_PA_CONFIG_HEADER" value="&lt;sl_rail_util_pa_config.h>"/>
+  <macroDefinition name="CONFIG_MBEDTLS_USE_FREERTOS_PVCALLOC"/>
+  <macroDefinition name="EFR32ZG" value="1"/>
+  <macroDefinition name="SL_IOSTREAM_UART_FLUSH_TX_BUFFER"/>
+  <macroDefinition name="configPOST_SLEEP_PROCESSING" value="exitPowerDown"/>
+  <macroDefinition name="configPRE_SLEEP_PROCESSING" value="enterPowerDown"/>
+  <macroDefinition name="NDEBUG"/>
+  <macroDefinition name="NO_DEBUGPRINT"/>
+  <macroDefinition name="ZAF_CONFIG_DEVICE_OPTION_MASK" value="GENERIC_TYPE_STATIC_CONTROLLER"/>
+  <macroDefinition name="ZAF_CONFIG_DEVICE_OPTION_MASK" value="APPLICATION_NODEINFO_LISTENING"/>
+  <macroDefinition name="ZW_CONTROLLER"/>
+  <macroDefinition name="ZW_CONTROLLER_BRIDGE"/>
+  <macroDefinition name="ZW_CONTROLLER_STATIC"/>
+  <macroDefinition name="ZWAVE_SERIES_700"/>
+  <macroDefinition name="RADIO_BOARD_EFR32ZG14" value="1"/>
+  <macroDefinition name="RADIO_NO_BOARD"/>
+  <macroDefinition name="SDK_VERSION_MAJOR" value="7"/>
+  <macroDefinition name="SDK_VERSION_MINOR" value="21"/>
+  <macroDefinition name="SDK_VERSION_PATCH" value="1"/>
+  <macroDefinition name="ZAF_VERSION_MAJOR" value="10"/>
+  <macroDefinition name="ZAF_VERSION_MINOR" value="21"/>
+  <macroDefinition name="ZAF_VERSION_PATCH" value="1"/>
+  <macroDefinition name="ZW_VERSION_MAJOR" value="7"/>
+  <macroDefinition name="ZW_VERSION_MINOR" value="21"/>
+  <macroDefinition name="ZW_VERSION_PATCH" value="1"/>
+  <libraryFile uri="studio:/project/gecko_sdk_4.4.1/platform/emdrv/nvm3/lib/libnvm3_CM4_gcc.a"/>
+  <libraryFile uri="studio:/project/gecko_sdk_4.4.1/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg14_gcc_release.a"/>
+  <libraryFile name="gcc"/>
+  <libraryFile name="c"/>
+  <libraryFile name="m"/>
+  <libraryFile name="nosys"/>
+  <libraryFile uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/ZWave/lib/libZWaveController_700s.a"/>
+  <libraryFile uri="studio:/project/gecko_sdk_4.4.1/protocol/z-wave/platform/SiliconLabs/PAL/lib/libzpal_efr32zg14p231f256gm32.a"/>
+  <toolOption toolId="toolOption.uc.toolchain" optionId="toolOption.uc.toolchain.cpu" value="cortex-m4"/>
+  <toolOption toolId="toolOption.uc.toolchain" optionId="toolOption.uc.toolchain.fpu" value="fpv4-sp"/>
+  <toolOption toolId="toolOption.uc.toolchain" optionId="toolOption.uc.toolchain.float_abi" value="softfp"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.preinclude">
+    <toolListOption value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption toolId="toolOption.uc.assembler" optionId="toolOption.uc.assembler.preinclude">
+    <toolListOption value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption toolId="toolOption.uc.linker" optionId="toolOption.uc.linker.linkerScript" value="$project/autogen/linkerfile.ld"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.function_sections" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.data_sections" value="true"/>
+  <toolOption toolId="toolOption.uc.linker" optionId="toolOption.uc.linker.nano_c_libs" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.omit_frame_pointer" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.no_exceptions" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.no_rtti" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.optimization" value="size"/>
+  <toolOption toolId="toolOption.uc.linker" optionId="toolOption.uc.linker.generateMapFile" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.c_standard" value="c99"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.cxx_standard" value="c++11"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.warnings.all" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.warnings.extra" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.warnings.pedantic" value="false"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.warnings.are_errors" value="false"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.enable" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.floatingpoint.enable" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.floatingpoint.enable" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.enable" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.floatingpoint.enable" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.preinclude">
+    <toolListOption value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.preinclude">
+    <toolListOption value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.preinclude">
+    <toolListOption value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect.c99"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.misc.dialect" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.misc.dialect.cpp0x"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.no_rtti" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.no_exceptions" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.level" value="gnu.c.optimization.level.size"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.level" value="gnu.cpp.compiler.optimization.level.size"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.datasect" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.datasect" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.functionsects" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.functionsects" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.omitframepointer" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.omitframepointer" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.warnings.allwarn" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="gnu.cpp.compiler.option.warnings.allwarn" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.warnings.extrawarn" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="gnu.cpp.compiler.option.warnings.extrawarn" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.warnings.toerrors" value="false"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="gnu.cpp.compiler.option.warnings.toerrors" value="false"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.warnings.pedantic" value="false"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="gnu.cpp.compiler.option.warnings.pedantic" value="false"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script" value="${workspace_loc:/${ProjName}/autogen/linkerfile.ld}"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.clibs" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nanospec"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.clibs" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nanospec"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.map" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.map" value="true"/>
+  <toolOption toolId="studio.ide.project" optionId="device_opn" value="efr32zg14p231f256gm32"/>
+  <toolOption toolId="makefile.arm.gcc.linker" optionId="misc">
+    <toolListOption value="-Wl,--gc-sections"/>
+    <toolListOption value="-Wl,--start-group -lgcc -lc -Wl,--end-group"/>
+    <toolListOption value="-Wl,--no-warn-rwx-segments"/>
+  </toolOption>
+  <toolOption toolId="makefile.arm.gcc.compiler" optionId="misc">
+    <toolListOption value="--specs=nano.specs"/>
+    <toolListOption value="-s"/>
+    <toolListOption value="-fmerge-all-constants"/>
+    <toolListOption value="-Wall"/>
+    <toolListOption value="-Werror"/>
+    <toolListOption value="-Werror=vla"/>
+    <toolListOption value="-Werror=unused-parameter"/>
+    <toolListOption value="-Wextra"/>
+    <toolListOption value="-Wno-implicit-function-declaration"/>
+    <toolListOption value="-g"/>
+  </toolOption>
+  <toolOption toolId="makefile.host.gcc.compiler" optionId="misc">
+    <toolListOption value="--specs=nano.specs"/>
+    <toolListOption value="-s"/>
+    <toolListOption value="-fmerge-all-constants"/>
+    <toolListOption value="-Wall"/>
+    <toolListOption value="-Werror"/>
+    <toolListOption value="-Werror=vla"/>
+    <toolListOption value="-Werror=unused-parameter"/>
+    <toolListOption value="-Wextra"/>
+    <toolListOption value="-Wno-implicit-function-declaration"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.gnu.c.compiler.option.misc.otherlist">
+    <toolListOption value="--specs=nano.specs"/>
+    <toolListOption value="-s"/>
+    <toolListOption value="-fmerge-all-constants"/>
+    <toolListOption value="-Wall"/>
+    <toolListOption value="-Werror"/>
+    <toolListOption value="-Werror=vla"/>
+    <toolListOption value="-Werror=unused-parameter"/>
+    <toolListOption value="-Wextra"/>
+    <toolListOption value="-Wno-implicit-function-declaration"/>
+    <toolListOption value="-c"/>
+    <toolListOption value="-fmessage-length=0"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.gnu.cpp.compiler.option.misc.otherlist">
+    <toolListOption value="--specs=nano.specs"/>
+    <toolListOption value="-s"/>
+    <toolListOption value="-fmerge-all-constants"/>
+    <toolListOption value="-Wall"/>
+    <toolListOption value="-Werror"/>
+    <toolListOption value="-Werror=vla"/>
+    <toolListOption value="-Werror=unused-parameter"/>
+    <toolListOption value="-Wextra"/>
+    <toolListOption value="-Wno-implicit-function-declaration"/>
+    <toolListOption value="-c"/>
+    <toolListOption value="-fmessage-length=0"/>
+  </toolOption>
+  <toolOption toolId="makefile.host.gcc.linker" optionId="misc">
+    <toolListOption value="-Wl,--start-group -lgcc -lc -Wl,--end-group"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.gnu.c.link.option.ldflags">
+    <toolListOption value="-Wl,--start-group -lgcc -lc -Wl,--end-group"/>
+    <toolListOption value="-Wl,--no-warn-rwx-segments"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.gnu.cpp.link.option.flags">
+    <toolListOption value="-Wl,--start-group -lgcc -lc -Wl,--end-group"/>
+    <toolListOption value="-Wl,--no-warn-rwx-segments"/>
+  </toolOption>
+  <toolOption toolId="makefile.arm.gcc.assembler" optionId="misc">
+    <toolListOption value="-x assembler-with-cpp"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.circulardependency" value="true"/>
+</project>
